@@ -189,8 +189,6 @@
 		4BA8B5830B1B053E007CD75E /* ZoomTextToSpeech.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE5F511075121A400C25A70 /* ZoomTextToSpeech.m */; };
 		4BA8B83A0B1B5F65007CD75E /* typographicSettings.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BA8B8390B1B5F65007CD75E /* typographicSettings.png */; };
 		4BA8B9530B1BB3F4007CD75E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCF3F4B050FB2C500A8E303 /* main.m */; };
-		4BB27DA00C592D9100470443 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB27D9F0C592D9100470443 /* Sparkle.framework */; };
-		4BB27DB40C592D9D00470443 /* Sparkle.framework in Copy frameworks */ = {isa = PBXBuildFile; fileRef = 4BB27D9F0C592D9100470443 /* Sparkle.framework */; };
 		4BB65ACE08EF02D600E7E28E /* ZoomBlorbFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF1576406BAD034001A3C27 /* ZoomBlorbFile.m */; };
 		4BB65AD408EF02DF00E7E28E /* ZoomProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCF3F29050F8E0000A8E303 /* ZoomProtocol.m */; };
 		4BB8C0DE08C2452E00D7D334 /* operation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1E3F82050F7CC500A8E303 /* operation.h */; };
@@ -781,7 +779,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				4BB27DB40C592D9D00470443 /* Sparkle.framework in Copy frameworks */,
 				4B36C4440955EC2600874F9F /* GlkView.framework in Copy frameworks */,
 				4B7CB1D00936350E00F3B8F6 /* GlkClient.framework in Copy frameworks */,
 				4B7CB0AA09362A7200F3B8F6 /* ZoomPlugIns.framework in Copy frameworks */,
@@ -1058,7 +1055,6 @@
 		4BACEABB05B45C0500A9B6DC /* ZoomStoryID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoomStoryID.h; sourceTree = "<group>"; };
 		4BACEABC05B45C0500A9B6DC /* ZoomStoryID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomStoryID.m; sourceTree = "<group>"; };
 		4BAE0EF6062ADA19009426D5 /* iFiction.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = iFiction.icns; sourceTree = "<group>"; };
-		4BB27D9F0C592D9100470443 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = "../Sparkle-1.1/Extras/English-Only Framework/Sparkle.framework"; sourceTree = SOURCE_ROOT; };
 		4BB515B405BC615F00D00C96 /* iFiction.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = iFiction.nib; sourceTree = "<group>"; };
 		4BB8BED308B785B200D7D334 /* ifmetabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ifmetabase.h; sourceTree = "<group>"; };
 		4BB8BED408B785B200D7D334 /* ifmetabase.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ifmetabase.c; sourceTree = "<group>"; };
@@ -1249,7 +1245,6 @@
 				4B9DC7F11502877B003DF057 /* QuartzCore.framework in Frameworks */,
 				4B36C4100955E7EB00874F9F /* GlkView.framework in Frameworks */,
 				4B18890D0935FB4F003AF62A /* libExpat.a in Frameworks */,
-				4BB27DA00C592D9100470443 /* Sparkle.framework in Frameworks */,
 				4B840B100CC2C3B10071F3B3 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1399,7 +1394,6 @@
 				4BA373A40CD3CB7B00C7B1D4 /* CoreServices.framework */,
 				4BA373A50CD3CB7B00C7B1D4 /* QuickLook.framework */,
 				4B840B0F0CC2C3B10071F3B3 /* WebKit.framework */,
-				4BB27D9F0C592D9100470443 /* Sparkle.framework */,
 				4B39CA8308EEFE8F00BA5E90 /* CoreServices.framework */,
 				4BECA7F705B194AA006840BA /* libexpat.a */,
 				4B5CBB9B069D671200C0AA88 /* Carbon.framework */,
@@ -3193,7 +3187,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = NO;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx;
 			};
 			name = Development;
 		};
@@ -3212,7 +3206,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = NO;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx;
 			};
 			name = Deployment;
 		};
@@ -3231,7 +3225,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = NO;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx;
 			};
 			name = Default;
 		};
@@ -3770,7 +3764,6 @@
 				);
 				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				PRODUCT_NAME = ZoomServer;
-				SDKROOT = macosx10.8;
 				YACC_GENERATED_FILE_STEM = InputFileStem;
 			};
 			name = Development;
@@ -3785,7 +3778,6 @@
 				);
 				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				PRODUCT_NAME = ZoomServer;
-				SDKROOT = macosx10.8;
 				STRIP_INSTALLED_PRODUCT = YES;
 				STRIP_STYLE = "non-global";
 				YACC_GENERATED_FILE_STEM = InputFileStem;
@@ -3802,7 +3794,6 @@
 				);
 				LIBRARY_SEARCH_PATHS = /usr/local/lib;
 				PRODUCT_NAME = ZoomServer;
-				SDKROOT = macosx10.8;
 				YACC_GENERATED_FILE_STEM = InputFileStem;
 			};
 			name = Default;
@@ -3811,6 +3802,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = DJ6F4PZ2AT;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(FRAMEWORK_SEARCH_PATHS)",
 					"$(SRCROOT)/build/Development",
@@ -3837,6 +3829,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = DJ6F4PZ2AT;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(FRAMEWORK_SEARCH_PATHS)",
 					"$(SRCROOT)/build/Deployment",
@@ -3864,6 +3857,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEVELOPMENT_TEAM = DJ6F4PZ2AT;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(FRAMEWORK_SEARCH_PATHS)",
 					"$(SRCROOT)/build/Development",
